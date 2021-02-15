@@ -21,8 +21,8 @@ export default class react360WebSite extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        height: 800,
-        width: 4680,
+        height: 600,
+        width: 4069,
         flex:1, 
         backgroundColor: 'rgba(255, 255, 255, 0.1)',
         flexDirection: 'column',

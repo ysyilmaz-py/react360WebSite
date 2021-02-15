@@ -7,10 +7,12 @@ function init(bundle, parent, options = {}) {
     });
 
     const myCylinderSurface = new Surface(
-        4680,
+        4069,
         600,
         Surface.SurfaceShape.Cylinder
     );
+
+    myCylinderSurface.setDensity(4069)
 
     r360.renderToSurface(
         r360.createRoot('react360WebSite', {
